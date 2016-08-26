@@ -1,0 +1,28 @@
+ #one{
+font-size: 2vmin;
+    position: absolute;
+    height: 10vw;
+    width: 30vw;
+    margin-top: 1vw;
+    margin-left: 32vw;
+padding:4vw;
+  }
+  .format1{
+font-size: 2vmin;
+     position: absolute;
+    margin-top: 3vw;
+    margin-left: 3vw;
+    padding: 4vw;
+
+    background-color: gray;
+  }
+  
+input{
+font-size: 2vmin;
+    height: 5.5vh;
+    width: 15vw;
+}
+button{    margin-left: 5vw;
+    font-size: 2vmin;
+    
+    }
