@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<script src="angular.min.js"></script>
+<script src="angular-route.js"></script>
+<script src="registration.js"></script>
+ <link rel="stylesheet" type="text/css" href="elements.css">
+  </head>
+<body ng-app="myApp" ng-controller="control">
+
+		<form class ="format1">
+			<label><b>Name:<b></label><br>
+			<input type="text" ng-model="recname" placeholder="Name"><br><br>
+			<label><b>Email:<b></label><br>
+			<input type="email" ng-model
+			="recemail" placeholder="E-mail "><br><br>
+			<label><b>Password:<b></label><br>
+			<input type="password" ng-model
+			="recpassword" placeholder="Password"><br><br>
+			<input type="submit"  ng-click="loginRequest()" value="submit"><br><br>
+			<a href="login.html">For login</a>
+		</form>
+
+</body>
+</html>

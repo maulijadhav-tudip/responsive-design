@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" type="text/css" href="elements.css" ></head>
+<body >
+ 
+    <div class="format3">
+      <input type="text" name="" placeholder="Enter Visitor Name "/><br><br>
+      <input type="email" name="" placeholder="Enter Visitor e-mail address "/><br><br>
+      <input type="time" name="" placeholder="in time"/><br><br>
+      <input type="time" name="" placeholder="out time"/><br><br>
+      <input type="tel" name="" placeholder="phone number"/><br><br>
+      
+      <button >Submit</button><br><br>
+      
+    </div>
+ 
+</body>
+ 
+</html>

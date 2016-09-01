@@ -1,0 +1,70 @@
+.format2 {
+    position: absolute;
+margin-top: 3vw;
+margin-left: 30vw;
+font-size: 3vmin;
+border-radius: 5vh;
+padding: 5vmin;
+background-color: gray;
+} 
+.format3 {
+    position: absolute;
+margin-top: 3vw;
+margin-left: -0.5vw;
+font-size: 3vmin;
+border-radius: 5vh;
+padding: 5vmin;
+background-color: gray;
+} 
+  .format1{
+    position: absolute;
+margin-top: 4vw;
+margin-left: 30vw;
+font-size: 3vmin;
+border-radius: 5vh;
+padding: 3vw;
+background-color: gray;
+  }
+  
+input{
+font-size: 3vmin;
+    height: 5.5vh;
+    width: 15vw;
+}
+
+button{    
+
+  margin-left: 5vw;
+    font-size: 3vmin;
+    
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px  black;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1vmin;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: blue;
+}
+
+li a.active {
+    color: white;
+    background-color: black;
+}
